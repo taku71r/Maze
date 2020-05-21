@@ -119,7 +119,7 @@ class ViewController: UIViewController {
             }
             if posY >= self.screenSize.height - (self.playerView.frame.height / 2){
                 self.speedY = 0
-                posY = self.playerView.frame.height - (self.playerView.frame.height / 2)
+                posY = self.screenSize.height - (self.playerView.frame.height / 2)
             }
             
             for wallRect in self.wallRectArray {
